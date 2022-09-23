@@ -10,8 +10,15 @@ public class Enemy : MonoBehaviour
 
     public void Damage()
     {
-        health--;
+        currentHealthpoints--;
 
-        healthBarFill.fillAmount ;
+        healthBarFill.fillAmount = (float) currentHealthpoints/ (float) maximumHealthpoints;
+
+        if (currentHealthpoints <= 0) Defeated();
+    }
+
+    public void Defeated()
+    {
+        Debug.Log("Defeated");
     }
 }
