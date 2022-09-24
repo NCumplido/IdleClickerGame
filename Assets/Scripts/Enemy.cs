@@ -19,6 +19,6 @@ public class Enemy : MonoBehaviour
 
     public void Defeated()
     {
-        Debug.Log("Defeated");
+        EnemyManager.instance.DefeatEnemy(gameObject);
     }
 }
