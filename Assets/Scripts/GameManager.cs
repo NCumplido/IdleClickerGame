@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int gold;
+    public TextMeshProUGUI goldText;
+
+    public static GameManager instance;
+    void Awake ()
     {
-        
+        instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddGold(int amount)
     {
-        
+        gold += amount;
+        goldText.text = "Gold: " + gold.ToString();
     }
 }
