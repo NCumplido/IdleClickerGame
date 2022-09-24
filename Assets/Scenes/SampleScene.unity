@@ -1024,6 +1024,8 @@ MonoBehaviour:
   - {fileID: 7912846034658252796, guid: 8e0eeec03173e8c4ab30497ee064cb15, type: 3}
   - {fileID: 9037078841280589097, guid: 11aff35e3f5f89540886e5e3e532912c, type: 3}
   - {fileID: 3207306389035792920, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+  - {fileID: 3207306389035792920, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+  - {fileID: 2852841289812711609, guid: 9fc323675c67d524f846520683632cc4, type: 3}
   currentEnemy: {fileID: 0}
   canvas: {fileID: 58308372}
 --- !u!4 &2040409680
@@ -1055,6 +1057,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gold: 0
   goldText: {fileID: 47138132}
+  backgrounds:
+  - {fileID: 21300000, guid: febda29659050964e81b15490b637811, type: 3}
+  - {fileID: 21300000, guid: 54949dc8338215049ab5b070ba5cead7, type: 3}
+  - {fileID: 21300000, guid: cdfb5480da4a46149a997df00a247b61, type: 3}
+  - {fileID: 21300000, guid: ebcb3107e9a7bc04891a44daba39c55c, type: 3}
+  - {fileID: 21300000, guid: f498551105f193240a0e518d950bad89, type: 3}
+  backgroundImage: {fileID: 947271161}
 --- !u!1001 &7912846034380315878
 PrefabInstance:
   m_ObjectHideFlags: 0
