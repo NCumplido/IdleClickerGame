@@ -679,7 +679,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1245377631}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2040409682}
+        m_TargetAssemblyTypeName: ClickManager, Assembly-CSharp
+        m_MethodName: OnBuyAutoClicker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1245377631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1001,6 +1013,7 @@ GameObject:
   - component: {fileID: 2040409680}
   - component: {fileID: 2040409679}
   - component: {fileID: 2040409681}
+  - component: {fileID: 2040409682}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1064,6 +1077,20 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ebcb3107e9a7bc04891a44daba39c55c, type: 3}
   - {fileID: 21300000, guid: f498551105f193240a0e518d950bad89, type: 3}
   backgroundImage: {fileID: 947271161}
+--- !u!114 &2040409682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040409678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2686c30d98284764cbf6796d7dd3d3b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoClickersLastTime: []
+  autoClickerPrice: 1
 --- !u!1001 &7912846034380315878
 PrefabInstance:
   m_ObjectHideFlags: 0

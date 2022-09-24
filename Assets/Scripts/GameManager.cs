@@ -46,4 +46,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void TakeGold(int amount)
+    {
+        gold -= amount;
+        goldText.text = "Gold: " + gold.ToString();
+    }
+
 }
