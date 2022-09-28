@@ -7,12 +7,16 @@ public class Enemy : MonoBehaviour
     public int maximumHealthpoints;
     public int goldToGive;
     public Image healthBarFill;
+    public Animation anim;
 
     public void Damage()
     {
         currentHealthpoints--;
 
         healthBarFill.fillAmount = (float) currentHealthpoints/ (float) maximumHealthpoints;
+
+        anim.Stop();
+        anim.Play();
 
         if (currentHealthpoints <= 0) Defeated();
     }

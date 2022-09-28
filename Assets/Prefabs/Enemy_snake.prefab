@@ -100,6 +100,10 @@ PrefabInstance:
       value: Enemy_snake
       objectReference: {fileID: 0}
     - target: {fileID: 9037078841280589103, guid: 11aff35e3f5f89540886e5e3e532912c, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 610812837130687425}
+    - target: {fileID: 9037078841280589103, guid: 11aff35e3f5f89540886e5e3e532912c, type: 3}
       propertyPath: goldToGive
       value: 2
       objectReference: {fileID: 0}
@@ -113,3 +117,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11aff35e3f5f89540886e5e3e532912c, type: 3}
+--- !u!111 &610812837130687425 stripped
+Animation:
+  m_CorrespondingSourceObject: {fileID: 6454371246372521200, guid: 11aff35e3f5f89540886e5e3e532912c, type: 3}
+  m_PrefabInstance: {fileID: 5902111870234122033}
+  m_PrefabAsset: {fileID: 0}

@@ -11,6 +11,30 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 2b86929113e66f5429726decac9a6a65, type: 3}
+    - target: {fileID: 3207306387514487088, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207306387514487088, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207306387514487088, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207306387514487091, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207306387514487091, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207306387514487091, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3207306389035792920, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
       propertyPath: m_Name
       value: Enemy_bat
@@ -100,6 +124,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3207306389035792926, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 3810755225270598374}
+    - target: {fileID: 3207306389035792926, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
       propertyPath: goldToGive
       value: 1
       objectReference: {fileID: 0}
@@ -111,5 +139,27 @@ PrefabInstance:
       propertyPath: maximumHealthpoints
       value: 8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 610812837130687425, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+--- !u!1 &7912846033277426902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3207306387514487090, guid: d564d0d2453608143b8a9b032becf58f, type: 3}
+  m_PrefabInstance: {fileID: 4707026465197682148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &3810755225270598374
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7912846033277426902}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e2052fc2c23e31542a0acd7b8b703bbc, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e2052fc2c23e31542a0acd7b8b703bbc, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
